@@ -23,6 +23,13 @@ label {
     border-radius: 4px;
 }
 
+input[type=text] {
+    color: #545557;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #CED4DA;
+}
+
 input[type=submit] {
     font-weight: 500;
     height: 50px;
