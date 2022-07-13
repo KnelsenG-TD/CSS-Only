@@ -19,15 +19,14 @@ label {
 }
 
 #exact_cardholder_name, #x_card_num, #x_exp_date, #x_card_code {
-    background: #F7F7F7;
     border-radius: 4px;
-}
-
-input[type=text] {
     color: #545557;
     background-color: #FFFFFF;
     background-clip: padding-box;
     border: 1px solid #CED4DA;
+}
+
+input[type=text] {
 }
 
 input[type=submit] {
