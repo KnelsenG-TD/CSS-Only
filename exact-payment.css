@@ -1,0 +1,39 @@
+document {
+    margin-top: 0;
+}
+
+#header {
+    display: none;
+}
+
+#order {
+    display: none;
+}
+
+#content #cc h1 {
+    display: none;
+}
+
+label {
+
+}
+
+#exact_cardholder_name, #x_card_num, #x_exp_date, #x_card_code {
+    background: #F7F7F7;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    font-weight: 500;
+    height: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    width: 220px;
+
+    border-radius: 1px;
+    border: 2px solid #004CCC;
+
+    color: #FFFFFF;
+    background: #004CCC;
+
+}
