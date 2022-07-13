@@ -26,7 +26,7 @@ label {
     border: 1px solid #CED4DA;
 }
 
-img[name="American Express"] {
+img[title="American Express"] {
     display: none;
 }
 
