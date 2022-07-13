@@ -26,7 +26,8 @@ label {
     border: 1px solid #CED4DA;
 }
 
-input[type=text] {
+img[name="American Express"] {
+    display: none;
 }
 
 input[type=submit] {
