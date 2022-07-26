@@ -28,6 +28,10 @@ label {
     border: 1px solid #CED4DA;
 }
 
+#x_card_num {
+    display: inline-block;
+}
+
 img[title="American Express"] {
     display: none;
 }
@@ -47,9 +51,8 @@ input[type=submit] {
 
 }
 
-input[type=text] {
+input[type=text], #cvd_ {
     display: block !important;
-    width: 100%;
     height: 3.75rem;
     padding: .375rem .75rem;
     font-size: 1rem;
