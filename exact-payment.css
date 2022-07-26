@@ -57,7 +57,7 @@ input[type=text] {
     background-color: #FFFFFF;
     background-clip: padding-box;
     border: 1px solid #CED4DA;
-    border-radius: .25rem;
+    border-radius: 1px;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
