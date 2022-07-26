@@ -28,7 +28,7 @@ label {
     border: 1px solid #CED4DA;
 }
 
-#x_card_num {
+#x_card_num, #x_card_code {
     display: inline-block;
 }
 
@@ -46,11 +46,10 @@ input[type=submit] {
     border: 2px solid #004CCC;
     color: #FFFFFF;
     background: #004CCC;
-
 }
 
 input[type=text] {
-    display: block !important;
+    display: block;
     padding: .375rem .75rem;
     font-size: 1rem;
     font-weight: 400;
@@ -71,4 +70,8 @@ input[type=text] {
     border: 1px solid #CED4DA;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#fieldErrorMessage {
+
 }
