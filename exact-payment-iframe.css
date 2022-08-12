@@ -1,0 +1,109 @@
+
+body {
+    margin: 0;
+}
+
+#document {
+    margin-top: 0;
+    width: 100%
+}
+
+#header {
+    background: black;
+    padding: 20px;
+    border: none !important;
+}
+
+#header h1 {
+    margin: 0;
+    line-height: 0;
+    font-size: 0;
+}
+
+#header img {
+    margin: 10px auto !important;
+    display: table-cell;
+    height: 60px;
+    width: auto;
+}
+
+#order {
+    display: none;
+}
+
+#content {
+    max-width: 700px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+#content #cc h1 {
+    display: none;
+}
+
+#cc {
+    width: 100%
+}
+
+label {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#exact_cardholder_name, #x_card_num, #x_exp_date, #x_card_code {
+    border-radius: 4px;
+    color: #545557;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #CED4DA;
+}
+
+#x_card_num, #x_card_code {
+    display: inline-block;
+}
+
+/*img[title="American Express"] {*/
+/*    display: none;*/
+/*}*/
+
+input[type=submit] {
+    font-weight: 500;
+    height: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    width: 220px;
+    border-radius: 1px;
+    border: 2px solid #004CCC;
+    color: #FFFFFF;
+    background: #004CCC;
+    margin:20px auto
+}
+
+input[type=text] {
+    display: block;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #545557;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #CED4DA;
+    border-radius: 1px;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#cvd_presence_ind {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #545557;
+    background-color: #FFFFFF;
+    background-clip: padding-box;
+    border: 1px solid #CED4DA;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+#fieldErrorMessage {
+
+}
