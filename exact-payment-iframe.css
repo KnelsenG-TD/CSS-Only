@@ -9,9 +9,7 @@ body {
 }
 
 #header {
-    background: black;
-    padding: 20px;
-    border: none !important;
+    display: none;
 }
 
 #header h1 {
