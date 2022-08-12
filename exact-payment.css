@@ -2,9 +2,9 @@ document {
     margin-top: 0;
 }
 
-#header {
-    display: none;
-}
+/*#header {*/
+/*    display: none;*/
+/*}*/
 
 #order {
     display: none;
@@ -32,9 +32,9 @@ label {
     display: inline-block;
 }
 
-img[title="American Express"] {
-    display: none;
-}
+/*img[title="American Express"] {*/
+/*    display: none;*/
+/*}*/
 
 input[type=submit] {
     font-weight: 500;
