@@ -1,17 +1,15 @@
 
 body {
-    margin: 0;
+    margin: 30px;
 }
 
 #document {
     margin-top: 0;
-    width: 100%
 }
 
 #header {
-    background: black;
-    padding: 20px;
-    border: none !important;
+    /* padding: 20px; */
+    /*     border: none !important; */
 }
 
 #header h1 {
@@ -21,7 +19,10 @@ body {
 }
 
 #header img {
-    margin: 10px auto !important;
+    background: #0A0B0D;
+    padding: 15px 50px;
+    border-radius: 8px;
+    margin: 10px auto 10px 10px !important;
     display: table-cell;
     height: 60px;
     width: auto;
