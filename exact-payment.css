@@ -1,4 +1,9 @@
-document {
+
+body {
+    margin: 0;
+}
+
+#document {
     margin-top: 0;
 }
 
@@ -6,10 +11,25 @@ document {
 /*    display: none;*/
 /*}*/
 
+#header h1 {
+    margin: 0;
+    line-height: 0;
+    font-size: 0;
+}
+
+#header img {
+    margin: 10px auto;
+    display: table-cell;
+}
+
 #order {
     display: none;
 }
 
+#content {
+    width: 700px;
+    margin 0 auto;
+}
 #content #cc h1 {
     display: none;
 }
