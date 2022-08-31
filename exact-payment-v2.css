@@ -19,10 +19,8 @@ body {
 }
 
 #header img {
-    background: #0A0B0D;
-    padding: 15px 50px;
-    border-radius: 8px;
-    margin: 10px auto 10px 0 !important;
+    padding: 0 14px;
+    margin: 10px auto 0 0 !important;
     display: table-cell;
     height: 60px;
     width: auto;
